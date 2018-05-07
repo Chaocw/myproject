@@ -4,7 +4,7 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 let routes = [{
-	path: '/',
+	path: '',
 	components: require('../components/member.vue')
 },{
 	path: '/address',

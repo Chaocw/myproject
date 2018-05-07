@@ -91,6 +91,9 @@ new Vue({
             	
             }
         },
+        scrollready() {
+        	this.getSearchList()
+        }
 	},
 	mixins: [mixin],
 	components: {
